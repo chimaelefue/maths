@@ -1,38 +1,112 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
   display: flex;
-  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+
+  height: 100vh;
+  justify-content: center;
+  
+  
+}
+button{
+  background-color: lightblue;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+  width: 10vw;
+ 
+  color: rgb(0, 88, 100);
+  box-shadow: 5px 10px 8px #131515;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.display{
+  margin: 1px;
+  border-radius: 50px;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 88, 100);
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.changeColorTen{
+  margin: 1px;
+  border-radius: 50px;
+  background-color: chocolate;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 75, 100);
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.changeColorTwenty{
+  margin: 1px;
+  border-radius: 50px;
+  background-color: darkgoldenrod;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 75, 100);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.containerDisplay{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.userDisplay{
+  display: flex;
+  
+  justify-items: center;
+  
+}
+
+.name{
+  background-color: rgb(195, 237, 155);
+  border: none;
+  width: 30vw;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: rgb(0, 75, 100);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.userName{
+  background-color: rgb(195, 237, 155);
+  border-radius: 5px;
+  border: none;
+  width: 30vw;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(0, 75, 100);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.containerForm{
+  display: flex;
+  justify-content: center;
+}
+input{
+  background-color: rgb(195, 237, 155);
+  width: 30vw;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
 }
